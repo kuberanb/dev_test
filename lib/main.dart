@@ -1,5 +1,6 @@
 import 'package:dev_test/views/login/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Dev Test',
       theme: ThemeData(
+        fontFamily: GoogleFonts.openSans().fontFamily,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
